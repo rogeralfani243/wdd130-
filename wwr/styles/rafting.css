@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #055a05;
+    --primary-color: #ffffff;
 --accent1-color: #264653; 
 --accent2-color: #e9c46a; 
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: Arial, Helvetica, sans-serif;}
 
 header {
-    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     color: var(--accent2-color);
+    align-items: center;
+    align-content: center;
 
 }
 
@@ -21,20 +24,31 @@ body{
     color: var(--accent1-color);
 }
 header,main,footer {
-    width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 h1,h2{
+    display: flex;
+    justify-content: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
 header nav a {
- 
+ color: var(--accent1-color);
     text-decoration: none;
+}
+header nav a:hover{
+    color: rgb(0, 51, 146);
+    letter-spacing: 1px;
 }
 .socialmedia a {
        margin: 10px 10px;
@@ -49,12 +63,16 @@ header nav a {
     height: auto;
 }
 .hero {
-    width: 100%;
     position: relative;
+
 }
 
 .hero article {
+    font-size: 13px;
+    color: #fff;
+    top: 50%;
     position: absolute;
+    background-color: var(--accent1-color);
 }
 .hero img {
     border-radius: 10px;
@@ -73,5 +91,23 @@ color: #fff;
 }
 .hero article img {
 float: right;
-width: 125px;
+width: 200px;
+}
+main .section-2 nav  {
+    display: flex ;
+    gap: 20px;
+    width: 100%;
+    align-items: baseline;
+}
+
+main .section-2 nav figure figcaption {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+main .section-2 nav img  {
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
 }
