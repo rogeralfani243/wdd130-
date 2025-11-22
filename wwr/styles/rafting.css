@@ -96,8 +96,10 @@ width: 200px;
 main .section-2 div  {
     margin: 10px 10px;
     display: flex ;
+    justify-content: center;
     gap: 20px;
     width: 100%;
+      flex-wrap: wrap;  
     align-items: baseline;
 }
 
