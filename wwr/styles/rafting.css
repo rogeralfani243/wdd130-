@@ -16,6 +16,7 @@ header {
     color: var(--accent2-color);
     align-items: center;
     align-content: center;
+    justify-content: space-around;
 
 }
 
@@ -94,6 +95,7 @@ float: right;
 width: 200px;
 }
 main .section-2 div  {
+    margin: 10px 10px;
     display: flex ;
     gap: 20px;
     width: 100%;
