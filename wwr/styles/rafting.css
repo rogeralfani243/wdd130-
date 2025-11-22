@@ -93,20 +93,20 @@ color: #fff;
 float: right;
 width: 200px;
 }
-main .section-2 nav  {
+main .section-2 div  {
     display: flex ;
     gap: 20px;
     width: 100%;
     align-items: baseline;
 }
 
-main .section-2 nav figure figcaption {
+main .section-2 div figure figcaption {
     display: grid;
     justify-content: center;
     align-items: center;
 
 }
-main .section-2 nav img  {
+main .section-2 div img  {
     width: 280px;
     height: 200px;
     border-radius: 10px;
