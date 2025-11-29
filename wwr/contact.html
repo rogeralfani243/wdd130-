@@ -35,21 +35,24 @@
             <article>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24183.844072298736!2d-111.89616640000001!3d40.7404544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1764385792263!5m2!1sen!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <form action="#">
                     <label for="q1"> Name </label>
-                    <input type="text" placeholder="name" id="q1" required> <br> <br>
+                    <input type="text" placeholder="name" name="name" id="q1" required> <br> <br>
                     <label for="q2">Email</label>
-                    <input type="text " id="q2" name="q2" placeholder="email" required>
+                    <input type="email" id="q2" name="q2" placeholder="email" required>
                     <br><br>
 
                     <div class="message-purpose">
                         <label for="q3"> Message Purpose </label><br>
                         <section>
-                            <label for=""><input value="a-tag" type="radio">General Inquiry</input></label>
-                            <label for=""><input value="link-tag" type="radio">Reservation Question</input></label>
-                            <label for=""> <input value="href-attribute" type="radio">Website Suggestion</input></label>
+                            <label for="radio-1"><input id="radio-1" name="choice" value="1" type="radio">General
+                                Inquiry</label>
+                            <label for="radio-2"><input id="radio-2" name="choice" value="2" type="radio">Reservation
+                                Question</label>
+                            <label for="radio-3"> <input id="radio-3" name="choice" value="3" type="radio">Website
+                                Suggestion</label>
 
                         </section>
                         <br><br>
