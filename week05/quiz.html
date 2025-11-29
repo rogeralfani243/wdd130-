@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+    <title>HTML & CSS Quiz</title>
+</head>
+
+<body>
+
+    <h1>HTML & CSS Online Quiz</h1>
+
+    <form action="#" method="post">
+
+        <!-- Question 1: Text Input -->
+        <label for="q1"> <span>1.</span> What does the acronym HTML stand for?</label><br>
+        <input type="text" id="q1" name="q1" required>
+        <br><br>
+
+        <!-- Question 2: Textarea -->
+        <label for="q2"> <span>2.</span> Describe the purpose of CSS in web development:</label><br>
+        <textarea id="q2" name="q2" rows="4" cols="40" required></textarea>
+        <br><br>
+
+        <!-- Question 3: Select Dropdown -->
+        <label for="q3"> <span>3.</span> Which HTML element is used to create a hyperlink?</label><br>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="a-tag">&lt;a&gt;</option>
+            <option value="link-tag">&lt;link&gt;</option>
+            <option value="href-attribute">href</option>
+        </select>
+        <br><br>
+
+        <!-- Question 4: Number Input -->
+        <label for="q4"><span>4.</span> How many heading levels (h1–h6) does HTML provide?</label><br>
+        <input type="number" id="q4" name="q4" required>
+        <br><br>
+
+        <button type="submit">Submit Quiz</button>
+
+    </form>
+
+</body>
+
+</html>

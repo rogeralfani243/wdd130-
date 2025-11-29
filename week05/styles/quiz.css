@@ -1,0 +1,32 @@
+:root{ 
+    --primary-color : rgb(16, 42, 128);
+}
+
+body{
+    display: grid;
+    justify-content: center;
+ 
+    
+
+}
+body h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+form {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(218, 218, 218, 0.589)  ;
+    padding: 50px 50px;
+    border-radius: 5px;
+
+}
+form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+form label span {
+    color: var(--primary-color);
+}

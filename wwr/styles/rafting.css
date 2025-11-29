@@ -114,3 +114,59 @@ main .section-2 div img  {
     height: 200px;
     border-radius: 10px;
 }
+
+
+/* contatc.html */
+.main-title {
+    display: grid;
+    justify-content: center;
+}
+.main-title article {
+    display: flex;
+    padding: 5px 5px;
+}
+.main-title form .message-purpose {
+    display: flex;
+    align-items: center;
+   align-content: center;
+}
+.main-title form .message-purpose section {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   
+}
+
+.main-title form {
+    display: grid;
+    padding: 10px 10px;
+}
+.main-title form button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+iframe {
+    border-radius: 5px;
+}
+.employee-flex {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    place-items: center;
+  
+}
+.employee-flex article {
+    gap: 50px;
+    display: flex;
+}
+.employee-flex article img{
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+.socialmedia-contact{
+    display: grid;
+    place-items: center;
+}
