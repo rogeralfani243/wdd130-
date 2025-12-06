@@ -207,6 +207,8 @@ text-align: center;
 opacity: 0.7;
 background-color: var( --accent1-color);
 color: #fff; 
+position: absolute;
+top: 0;
 }
 .hero article img {
 float: right;
